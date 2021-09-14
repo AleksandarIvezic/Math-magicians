@@ -8,7 +8,7 @@
    - Read a random math-related quote.
 
 
-![screenshot](./Screenshot-To-Do-list.png)
+![screenshot](./Screenshot-math-mag.png)
 
 ## Built With
 
@@ -23,9 +23,6 @@ To get a local copy up and running follow these simple example steps.
 
 - Node.js
 - npm
-
-### Live Demo
-[Live Demo Link]( https://shinobiwarior.github.io/Math-magicians/)
 
 ### Setup
 
