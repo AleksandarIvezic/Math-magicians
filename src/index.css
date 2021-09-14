@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -18,7 +18,7 @@ body {
   text-align: right;
   padding: 20px 10px;
   background: #858694;
-  color: #E0E0E0;
+  color: #e0e0e0;
 }
 
 .keyboard {
@@ -30,7 +30,7 @@ body {
   width: 25%;
   height: 4.5rem;
   border-radius: 0;
-  border: solid 1px #E0E0E0;
+  border: solid 1px #e0e0e0;
 }
 
 .big-key {
@@ -38,6 +38,5 @@ body {
 }
 
 .orange-key {
-  background-color: #F5913E;
+  background-color: #f5913e;
 }
-
