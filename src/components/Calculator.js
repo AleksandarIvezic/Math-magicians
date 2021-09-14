@@ -9,11 +9,10 @@ class Calculator extends React.Component {
   }
 
   render() {
-    const result = this.state;
     return (
       <div className="calculator">
         <div className="display">
-          <span className="displayNumber">{result}</span>
+          <span className="displayNumber">{this.state.result}</span>
         </div>
         <div className="keyboard">
           <button type="button" className="key" id="AC">AC</button>

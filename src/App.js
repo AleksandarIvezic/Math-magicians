@@ -1,5 +1,3 @@
-// import React from 'react'
-// eslint-disable-next-line no-unused-vars
 import Calculator from './components/Calculator';
 
 function App() {
