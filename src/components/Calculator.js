@@ -4,7 +4,7 @@ class Calculator extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      result: 0,
+      result: props.state,
     };
   }
 
