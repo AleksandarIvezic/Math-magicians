@@ -4,12 +4,12 @@ class Calculator extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      result: props.state,
+      result: props.result,
     };
   }
 
   render() {
-    const { result } = this.state;
+    const { result } = this.result;
     return (
       <div className="calculator">
         <div className="display">
