@@ -1,5 +1,5 @@
 const Calculator = () => (
-    <div className="calculator">
+  <div className="calculator">
       <div className="display">
         <span className="displayNumber">0</span>
       </div>
