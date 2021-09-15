@@ -14,16 +14,13 @@ class Calculator extends React.Component {
   }
 
   calculating(button) {
-    console.log('click on' + button)
     this.setState((state) => {
       return  calculate(state, button);
     })
-    console.log(this.state);
   }
 
   render() {
     const displayNum = this.state.next ? this.state.next : this.state.total || 0;
-    console.log(displayNum);
     return (
       <div className="calculator">
         <div className="display">
