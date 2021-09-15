@@ -5,15 +5,15 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      result: 0,
+      startValue: 0,
     };
   }
 
   render() {
-    const { result } = this.state;
+    const { startValue: start } = this.state;
     return (
       <div className="App">
-        <Calculator result={result} />
+        <Calculator start={start} />
       </div>
     );
   }

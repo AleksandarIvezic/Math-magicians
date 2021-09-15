@@ -8,6 +8,10 @@ body {
   padding: 40px;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 .calculator {
   width: 400px;
   margin: auto auto;
@@ -19,6 +23,7 @@ body {
   padding: 20px 10px;
   background: #858694;
   color: #e0e0e0;
+  overflow: auto;
 }
 
 .keyboard {
