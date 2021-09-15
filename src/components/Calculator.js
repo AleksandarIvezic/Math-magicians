@@ -9,7 +9,7 @@ class Calculator extends React.Component {
     this.state = {   
       total: props.start,
       next: null,
-      operation: null,      
+      operation: null,
     };
   }
 
@@ -37,7 +37,7 @@ class Calculator extends React.Component {
           <button onClick={() => this.calculating("7")} type="button" className="key" id="7">7</button>
           <button onClick={() => this.calculating("8")} type="button" className="key" id="8">8</button>
           <button onClick={() => this.calculating("9")} type="button" className="key" id="9">9</button>
-          <button onClick={() => this.calculating("X")} type="button" className="key orange-key" id="X">X</button>
+          <button onClick={() => this.calculating("x")} type="button" className="key orange-key" id="x">X</button>
           <button onClick={() => this.calculating("4")} type="button" className="key" id="4">4</button>
           <button onClick={() => this.calculating("5")} type="button" className="key" id="5">5</button>
           <button onClick={() => this.calculating("6")} type="button" className="key" id="6">6</button>
