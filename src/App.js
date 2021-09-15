@@ -10,7 +10,7 @@ class App extends React.Component {
   }
 
   render() {
-    const start = this.state.startValue;
+    const { startValue: start } = this.state;
     return (
       <div className="App">
         <Calculator start={start} />
