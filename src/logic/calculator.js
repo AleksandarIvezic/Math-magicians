@@ -39,7 +39,7 @@ export default function calculate(obj, buttonName) {
         return { next: buttonName };
       }
       // If there is no operation, update next and clear the value
-      if (obj.next) {
+      if (obj.next && obj.next!=='0') {
         return {
           next: obj.next + buttonName,
           total: null,
