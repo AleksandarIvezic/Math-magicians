@@ -25,7 +25,7 @@ class App extends React.Component {
           <Route path="/quote">
             <Quote />
           </Route>
-          <Route path="/">
+          <Route exact path="/">
             <Home />
           </Route>
         </Switch>

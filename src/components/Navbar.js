@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import React from 'react';
 import '../style/Navbar.css';
 
@@ -27,12 +27,14 @@ const Navbar = () => {
       <ul className="link-list">
         {links.map((link) => (
           <li key={link.id} className="link-item">
-            <Link
+            <NavLink
               to={link.path}
               className="link"
+              activeClassName="active-link"
+              exact
             >
               {link.text}
-            </Link>
+            </NavLink>
           </li>
         ))}
       </ul>
