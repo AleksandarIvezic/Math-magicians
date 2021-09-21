@@ -14,6 +14,9 @@
 
 - React
 
+## Live Demo
+
+[Live Demo Link](https://shinobiwarior.github.io/Math-magicians/)
 
 ## Getting Started
 
