@@ -1,0 +1,38 @@
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-size: 2.2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.link-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.link-item {
+  padding: 0 20px;
+}
+
+.link {
+  color: #fff3b0;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.active-link {
+  color: #e09f3e;
+  text-decoration: underline;
+  font-weight: bold;
+}
