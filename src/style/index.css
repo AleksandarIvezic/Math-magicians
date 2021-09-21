@@ -6,6 +6,8 @@
 
 body {
   padding: 40px;
+  background-color: #9e2a2b;
+  color: #fff3b0;
 }
 
 button:hover {

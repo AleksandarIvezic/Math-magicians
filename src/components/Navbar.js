@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import '../style/Navbar.css';
 
 const Navbar = () => {
   const links = [
@@ -20,12 +21,14 @@ const Navbar = () => {
   ];
 
   return (
-    <nav>
-      <ul>
+    <nav className="navbar">
+      <h1>Math Magicians</h1>
+      <ul className="link-list">
         {links.map((link) => (
-          <li key={link.id}>
+          <li key={link.id} className="link-item">
             <Link
               to={link.path}
+              className="link"
             >
               {link.text}
             </Link>
