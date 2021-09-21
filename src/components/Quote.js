@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import getQuote from '../helpers/getQuote';
+import '../style/Quote.css';
 
 const Quote = () => {
   const [quote, setQuote] = useState('');
@@ -14,9 +15,9 @@ const Quote = () => {
 
   return (
     <div className="quoteContainer">
-      <h3>
+      <h2>
         {`${quote.quote} - ${quote.author}`}
-      </h3>
+      </h2>
     </div>
   );
 };
