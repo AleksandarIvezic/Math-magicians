@@ -9,7 +9,8 @@ h1 {
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  align-items: center;
+  padding: 0 10px;
 }
 
 .link-list {
@@ -18,7 +19,7 @@ h1 {
 }
 
 .link-item {
-  padding: 10px 20px;
+  padding: 0 20px;
 }
 
 .link {
