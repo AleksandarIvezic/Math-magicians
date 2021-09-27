@@ -16,7 +16,11 @@
 
 ## Live Demo
 
-[Live Demo Link](https://shinobiwarior.github.io/Math-magicians/)
+[GH Pages](https://shinobiwarior.github.io/Math-magicians/)
+
+[Heroku](https://aleks-math-magicians.herokuapp.com/)
+
+[Netlify](https://aleks-math-magicians.netlify.app/)
 
 ## Getting Started
 
