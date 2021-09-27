@@ -16,7 +16,7 @@ const Quote = () => {
   return (
     <div className="quoteContainer">
       <h2>
-        {`${quote.quote} - ${quote.author}`}
+        {quote.quote ? `${quote.quote} - ${quote.author}` : 'Loading...'}
       </h2>
     </div>
   );
